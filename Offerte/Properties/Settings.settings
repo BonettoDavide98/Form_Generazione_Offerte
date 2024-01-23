@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="ConnectionString" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">Data Source=PC-MATTIA\SQLEXPRESS01;Integrated Security=true;Initial Catalog=CommesseDB;</Value>
+      <Value Profile="(Default)">Data Source=localhost\SQLEXPRESS;Integrated Security=true;Initial Catalog=CommesseDB;</Value>
     </Setting>
     <Setting Name="CartellaMaster" Type="System.String" Scope="User">
       <Value Profile="(Default)">MASTER_999_Cliente_Descrizione</Value>
@@ -18,7 +18,7 @@
       <Value Profile="(Default)">data source=192.168.9.175\sqlexpress;initial catalog=SD_Qualivision;user Id=sa;Password=qualivision</Value>
     </Setting>
     <Setting Name="PathServer" Type="System.String" Scope="User">
-      <Value Profile="(Default)">\\192.168.9.176\Qualivision\OFFERTE</Value>
+      <Value Profile="(Default)">\\QVSERVER\Qualivision\OFFERTE</Value>
     </Setting>
   </Settings>
 </SettingsFile>

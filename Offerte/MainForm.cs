@@ -3,11 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
-using Spire.Doc.Fields;
-using Spire.Doc.Documents;
-using Spire.Doc;
 using System.Drawing;
-using Spire.Doc.Formatting;
 using System.Threading;
 using System.Text.RegularExpressions;
 using System.Diagnostics;
@@ -17,19 +13,21 @@ namespace Offerte
     public partial class MainForm : Form
     {
         private static Caricamentocs carica = null;
-        public static Finish fine = new Finish();
-        private static bool isOpen = false;
+        string nomeAzienda = "";
+        //Liste dei dati dei clienti
         List<string> nAziende = new List<string>();
         List<string> Indirizzi = new List<string>();
         List<string> Citta = new List<string>();
         List<string> Cap = new List<string>();
         List<string> CondizioniPagamento = new List<string>();
 
+
         public MainForm()
         {
             InitializeComponent();
         }
 
+        //Carica i dati di ogni cliente nelle rispettive liste
         private void MainForm_Load(object sender, EventArgs e)
         {
             textBoxAnno.Text = DateTime.Now.Year.ToString();
@@ -63,63 +61,62 @@ namespace Offerte
             comboBoxNomeAzienda.AutoCompleteCustomSource = data;
             comboBoxNomeAzienda.DataSource = data;
         }
+
+        //Modifica il file .doc generico di offerta inserendo i dati forniti
         public void ScriviSuOfferta(Spire.Doc.Document documento, string path, int nofferta, string datastring, string condizionePagamento)
         {
-            if(!ValidateInputs())
-            {
-                return;
-            }
-
-            documento.LoadFromFile(path + "\\" + "Offerta_" + nofferta.ToString("000") + "-" + textBoxAnno.Text + "_" + comboBoxNomeAzienda.Text + "_" + textBoxDescrizioneCartella.Text + ".doc");
-            documento.Replace("Azienda", comboBoxNomeAzienda.Text, false, true);
+            documento.LoadFromFile(path + "\\" + "Offerta_" + nofferta.ToString("000") + "-" + DateTime.Today.Year.ToString() + "_" + nomeAzienda + "_" + textBoxDescrizioneCartella.Text + ".doc");
+            documento.Replace("Azienda", nomeAzienda, false, true);
             documento.Replace("Indirizzo", textBoxIndirizzo.Text, false, true);
             documento.Replace("12050,", textBoxCAP.Text, false, true);
-            documento.Replace("Nome Cognome", textBoxNomeTecnico.Text, false, true);
+            documento.Replace("Nome Cognome", textBoxAttenzioneDi.Text, false, true);
             documento.Replace("Città", "", false, true);
-            documento.Replace("27 luglio 2022", DateTime.Now.ToString("gg MM yyyy"), false, true);
+            documento.Replace("27 luglio 2022", datastring, false, true);
             documento.Replace("000/", nofferta.ToString() + "/", false, true);
-            documento.Replace("/2022", "/" + textBoxAnno.Text, false, true);
+            documento.Replace("/2022", "/" + DateTime.Now.Year, false, true);
             documento.Replace("Sistema di visione per controlli qualità Ceme nuclei mobili", textBoxDescrizioneCartella.Text, false, true);
-            documento.Replace("CONDIZIONE_PAGAMENTO", textBoxCondizionePagamento.Text, false, true);
-            documento.SaveToFile(path + "\\" + "Offerta_" + nofferta.ToString("000") + "-" + DateTime.Today.Year.ToString() + "_" + comboBoxNomeAzienda.Text + "_" + textBoxDescrizioneCartella.Text + ".doc");
+            documento.Replace("CONDIZIONE_PAGAMENTO", condizionePagamento, false, true);
+            documento.SaveToFile(path + "\\" + "Offerta_" + nofferta.ToString("000") + "-" + DateTime.Today.Year.ToString() + "_" + nomeAzienda + "_" + textBoxDescrizioneCartella.Text + ".doc");
         }
+
+        //Modifica il file .odt generico di report inserendo i dati forniti
         public void ScriviSuReport(Spire.Doc.Document documento, string path, int nofferta, string datastring)
         {
-            documento.LoadFromFile(path + "\\report\\" + "Report_" + nofferta.ToString("000") + "-" + textBoxAnno.Text + "_" + comboBoxNomeAzienda.Text + "_" + textBoxDescrizioneCartella.Text + ".odt");
-            documento.Replace("Azienda", comboBoxNomeAzienda.Text, false, true);
+            documento.LoadFromFile(path + "\\report\\" + "Report_" + nofferta.ToString("000") + "-" + DateTime.Today.Year.ToString() + "_" + nomeAzienda + "_" + textBoxDescrizioneCartella.Text + ".odt");
+            documento.Replace("Azienda", nomeAzienda, false, true);
             documento.Replace("Indirizzo", textBoxIndirizzo.Text, false, true);
             documento.Replace("12050,", textBoxCAP.Text, false, true);
-            documento.Replace("Nome Cognome", textBoxNomeTecnico.Text, false, true);
+            documento.Replace("Nome Cognome", textBoxAttenzioneDi.Text, false, true);
             documento.Replace("Città", "", false, true);
-            documento.Replace("27 luglio 2022", DateTime.Now.ToString("gg MM yyyy"), false, true);
+            documento.Replace("27 luglio 2022", datastring, false, true);
             documento.Replace("000/", nofferta.ToString() + "/", false, true);
-            documento.Replace("/2022", "/" + textBoxAnno.Text, false, true);
+            documento.Replace("/2022", "/" + DateTime.Now.Year, false, true);
             documento.Replace("Nome tecnico “NON METTERE IL COGNOME PER PRIVACY”", textBoxNomeTecnico.Text, false, true);
-            documento.SaveToFile(path + "\\report\\" + "Report_" + nofferta.ToString("000") + "-" + DateTime.Today.Year.ToString() + "_" + comboBoxNomeAzienda.Text + "_" + textBoxDescrizioneCartella.Text + ".odt");
+            documento.SaveToFile(path + "\\report\\" + "Report_" + nofferta.ToString("000") + "-" + DateTime.Today.Year.ToString() + "_" + nomeAzienda + "_" + textBoxDescrizioneCartella.Text + ".odt");
         }
 
-        public void CleanInput(string strIn)
+        //Rimuove i caratteri non validi
+        public static string CleanInput(string strIn)
         {
-            // Replace invalid characters with empty strings.
             try
             {
-                strIn = Regex.Replace(strIn, @"[^\w\.@-]", " ", RegexOptions.None, TimeSpan.FromSeconds(1));
+                return Regex.Replace(strIn, @"[^\w\.@-]", " ", RegexOptions.None, TimeSpan.FromSeconds(1));
             }
-            // If we timeout when replacing invalid characters,
-            // we should return Empty.
             catch (RegexMatchTimeoutException)
             {
-                strIn = String.Empty;
+                return String.Empty;
             }
         }
+
+        //Avvia un Thread che crea una copia della directory generica e successivamente avvia due Task che vanno ad adattare i file generici con le informazioni fornite
         private void buttonCrea_Click(object sender, EventArgs e)
         {
-            CleanInput(comboBoxNomeAzienda.Text);
-            CleanInput(textBoxDescrizioneCartella.Text);
-            CleanInput(textBoxNomeTecnico.Text);
-            CleanInput(textBoxIndirizzo.Text);
-            CleanInput(textBoxCAP.Text);
-            CleanInput(textBoxCondizionePagamento.Text);
+            textBoxDescrizioneCartella.Text = CleanInput(textBoxDescrizioneCartella.Text);
+            textBoxNomeTecnico.Text = CleanInput(textBoxNomeTecnico.Text);
+            textBoxIndirizzo.Text = CleanInput(textBoxIndirizzo.Text);
+            textBoxAttenzioneDi.Text = CleanInput(textBoxAttenzioneDi.Text);
+            textBoxCAP.Text = CleanInput(textBoxCAP.Text);
+            textBoxCondizionePagamento.Text = CleanInput(textBoxCondizionePagamento.Text);
 
             try
             {
@@ -137,6 +134,7 @@ namespace Offerte
                 Thread.Sleep(50);
 
                 int nofferta = 1;
+                nomeAzienda = comboBoxNomeAzienda.Text.Trim();
                 List<int> ris2 = new List<int>();
                 string[] pathServer = Directory.GetDirectories(Properties.Settings.Default.PathServer + "\\" + textBoxAnno.Text, "*_*");
                 for (int i = 0; i < pathServer.Length; i++)
@@ -148,7 +146,7 @@ namespace Offerte
                         ris2.Add(Convert.ToInt32(ris3[0]));
                     }
                 }
-                // ris2.Sort();
+
                 if (ris2.Count == 0)
                 {
                     nofferta = 1;
@@ -160,12 +158,13 @@ namespace Offerte
 
                 string descrizione = textBoxDescrizioneCartella.Text;
                 DateTime data = DateTime.Today;
-                string path = Properties.Settings.Default.PathServer + "\\" + textBoxAnno.Text + "\\" + nofferta.ToString("000") + "_" + comboBoxNomeAzienda + "_" + textBoxDescrizioneCartella.Text;
+                string path = Properties.Settings.Default.PathServer + "\\" + textBoxAnno.Text + "\\" + nofferta.ToString("000") + "_" + nomeAzienda + "_" + textBoxDescrizioneCartella.Text;
                 String dataString = data.ToString("dd MMMM yyyy");
                 string condizionePagamento = textBoxCondizionePagamento.Text;
-                CopyFilesRecursively(Properties.Settings.Default.PathServer + "\\" + Properties.Settings.Default.CartellaMaster, path, ref nofferta, comboBoxNomeAzienda.Text, ref descrizione);
+                CopyFilesRecursively(Properties.Settings.Default.PathServer + "\\" + Properties.Settings.Default.CartellaMaster, path, ref nofferta, ref nomeAzienda, ref descrizione);
                 Directory.CreateDirectory(path);
 
+                //Task che modifica il documento di offerta generico
                 System.Threading.Tasks.Task T_Offerta = System.Threading.Tasks.Task.Run(() =>
                 {
                     try
@@ -181,6 +180,7 @@ namespace Offerte
 
                 });
 
+                //Task che modifica il documento di report generico
                 System.Threading.Tasks.Task T_Report = System.Threading.Tasks.Task.Run(() =>
                 {
                     try
@@ -203,13 +203,17 @@ namespace Offerte
                     {
                         carica?.Close();
                         carica = null;
-                        isOpen = false;
                     }));
                 }
 
-                Process.Start("explorer.exe", path);
-                this.Close();
+                textBoxDescrizioneCartella.Clear();
+                textBoxNomeTecnico.Clear();
 
+                MessageBox.Show("Report e offerta generate con successo.");
+
+                Process.Start("explorer.exe", path);
+
+                this.Close();
             }
             catch (Exception ex)
             {
@@ -217,7 +221,8 @@ namespace Offerte
             }
         }
 
-        private static void CopyFilesRecursively(string sourcePath, string targetPath, ref int nofferta, string val1, ref string descrizione)
+        //Copia i file generici nella nuova directory
+        private static void CopyFilesRecursively(string sourcePath, string targetPath, ref int nofferta, ref string val1, ref string descrizione)
         {
             foreach (string dirPath in Directory.GetDirectories(sourcePath, "*", SearchOption.AllDirectories))
                 Directory.CreateDirectory(dirPath.Replace(sourcePath, targetPath));
@@ -231,6 +236,8 @@ namespace Offerte
                     File.Copy(newPath, newPath.Replace(sourcePath, targetPath), true);
             }
         }
+
+        //Aggiorna i dati se si cambia l'azienda selezionata nel comboBox
         private void comboBoxNomeAzienda_SelectedValueChanged(object sender, EventArgs e)
         {
             textBoxIndirizzo.Text = Indirizzi[comboBoxNomeAzienda.SelectedIndex];
@@ -238,21 +245,18 @@ namespace Offerte
             textBoxCitta.Text = Citta[comboBoxNomeAzienda.SelectedIndex];
             textBoxCondizionePagamento.Text = CondizioniPagamento[comboBoxNomeAzienda.SelectedIndex];
         }
+
+        //Apre il form contenente il video esplicativo
         private void btnInfo_Click(object sender, EventArgs e)
         {
             INFO info = new INFO();
             info.ShowDialog();
         }
 
-        private bool ValidateInputs()
+        //Chiude il form
+        private void buttonAnnulla_Click(object sender, EventArgs e)
         {
-            //TODO
-            return true;
-        }
-
-        private void HighlightError(Control control)
-        {
-            //TODO
+            this.Close();
         }
     }
 }

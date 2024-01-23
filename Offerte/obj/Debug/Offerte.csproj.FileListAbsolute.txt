@@ -233,7 +233,6 @@ C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\AxInterop.WMPL
 C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.csproj.ResolveComReference.cache
 C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.Caricamentocs.resources
 C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.Finish.resources
-C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.Form1.resources
 C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.INFO.resources
 C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.Properties.Resources.resources
 C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.csproj.GenerateResource.Cache

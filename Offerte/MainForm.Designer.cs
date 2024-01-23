@@ -230,7 +230,7 @@
             this.groupBoxContenuti.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxContenuti.Location = new System.Drawing.Point(13, 197);
             this.groupBoxContenuti.Name = "groupBoxContenuti";
-            this.groupBoxContenuti.Size = new System.Drawing.Size(717, 204);
+            this.groupBoxContenuti.Size = new System.Drawing.Size(717, 146);
             this.groupBoxContenuti.TabIndex = 2;
             this.groupBoxContenuti.TabStop = false;
             this.groupBoxContenuti.Text = "CONTENUTI";
@@ -274,7 +274,7 @@
             // buttonCrea
             // 
             this.buttonCrea.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCrea.Location = new System.Drawing.Point(494, 407);
+            this.buttonCrea.Location = new System.Drawing.Point(494, 349);
             this.buttonCrea.Name = "buttonCrea";
             this.buttonCrea.Size = new System.Drawing.Size(104, 48);
             this.buttonCrea.TabIndex = 3;
@@ -285,28 +285,30 @@
             // buttonAnnulla
             // 
             this.buttonAnnulla.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAnnulla.Location = new System.Drawing.Point(604, 407);
+            this.buttonAnnulla.Location = new System.Drawing.Point(604, 349);
             this.buttonAnnulla.Name = "buttonAnnulla";
             this.buttonAnnulla.Size = new System.Drawing.Size(126, 48);
             this.buttonAnnulla.TabIndex = 4;
             this.buttonAnnulla.Text = "ANNULLA";
             this.buttonAnnulla.UseVisualStyleBackColor = true;
+            this.buttonAnnulla.Click += new System.EventHandler(this.buttonAnnulla_Click);
             // 
             // buttonHelp
             // 
             this.buttonHelp.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonHelp.Location = new System.Drawing.Point(12, 407);
+            this.buttonHelp.Location = new System.Drawing.Point(13, 349);
             this.buttonHelp.Name = "buttonHelp";
-            this.buttonHelp.Size = new System.Drawing.Size(46, 48);
+            this.buttonHelp.Size = new System.Drawing.Size(48, 48);
             this.buttonHelp.TabIndex = 5;
             this.buttonHelp.Text = "?";
             this.buttonHelp.UseVisualStyleBackColor = true;
+            this.buttonHelp.Click += new System.EventHandler(this.btnInfo_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(740, 466);
+            this.ClientSize = new System.Drawing.Size(740, 403);
             this.Controls.Add(this.buttonHelp);
             this.Controls.Add(this.buttonAnnulla);
             this.Controls.Add(this.buttonCrea);
