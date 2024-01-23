@@ -38,20 +38,18 @@ namespace Offerte
 
             foreach (var item in listaClienti)
             {
-                if (item.RagioneSociale.Contains("srl"))
-                    nAziende.Add(item.RagioneSociale.Replace("srl", " "));
-                else if (item.RagioneSociale.Contains("s.r.l."))
-                    nAziende.Add(item.RagioneSociale.Replace("s.r.l.", " "));
-                else if (item.RagioneSociale.Contains("SRL"))
-                    nAziende.Add(item.RagioneSociale.Replace("SRL", " "));
-                else if (item.RagioneSociale.Contains("S.p.A."))
-                    nAziende.Add(item.RagioneSociale.Replace("S.p.A.", " "));
-                else
-                    nAziende.Add(item.RagioneSociale);
+                //Rimuove SRL
+                item.RagioneSociale = Regex.Replace(item.RagioneSociale, @" s\.?r\.?l\.?", "", RegexOptions.IgnoreCase);
+                //Rimuove SPA
+                item.RagioneSociale = Regex.Replace(item.RagioneSociale, @" s\.?p\.?a\.?", "", RegexOptions.IgnoreCase);
+                nAziende.Add(item.RagioneSociale);
 
                 Indirizzi.Add(item.Indirizzo);
+
                 Cap.Add(item.Cap);
+
                 Citta.Add(item.Citta);
+
                 CondizioniPagamento.Add(item.CondizionePagamento);
             }
 

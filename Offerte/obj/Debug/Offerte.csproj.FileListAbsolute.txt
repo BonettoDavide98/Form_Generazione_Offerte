@@ -240,3 +240,4 @@ C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.csproj
 C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.csproj.CoreCompileInputs.cache
 C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.exe
 C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.pdb
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.MainForm.resources
