@@ -1,0 +1,242 @@
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\Offerte.exe.config
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\Offerte.exe
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\Offerte.pdb
+C:\Users\Mattia\Desktop\Offerte\Offerte\obj\Debug\Offerte.csprojAssemblyReference.cache
+C:\Users\Mattia\Desktop\Offerte\Offerte\obj\Debug\Offerte.Form1.resources
+C:\Users\Mattia\Desktop\Offerte\Offerte\obj\Debug\Offerte.Properties.Resources.resources
+C:\Users\Mattia\Desktop\Offerte\Offerte\obj\Debug\Offerte.csproj.GenerateResource.cache
+C:\Users\Mattia\Desktop\Offerte\Offerte\obj\Debug\Offerte.csproj.CoreCompileInputs.cache
+C:\Users\Mattia\Desktop\Offerte\Offerte\obj\Debug\Offerte.exe
+C:\Users\Mattia\Desktop\Offerte\Offerte\obj\Debug\Offerte.pdb
+C:\Users\Mattia\Desktop\Offerte\Offerte\obj\Debug\Offerte.csproj.CopyComplete
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\Syncfusion.Compression.Base.dll
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\Syncfusion.DocIO.Base.dll
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\Syncfusion.Licensing.dll
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\Syncfusion.OfficeChart.Base.dll
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\Syncfusion.Compression.Base.xml
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\Syncfusion.DocIO.Base.xml
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\Syncfusion.OfficeChart.Base.xml
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\NPOI.dll
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\NPOI.OOXML.dll
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\ICSharpCode.SharpZipLib.pdb
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\NPOI.pdb
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\NPOI.xml
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\NPOI.OOXML.pdb
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\NPOI.OOXML.xml
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\NPOI.OpenXml4Net.pdb
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\NPOI.OpenXml4Net.xml
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\NPOI.OpenXmlFormats.pdb
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\Spire.Doc.dll
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\Spire.Pdf.dll
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\Microsoft.mshtml.dll
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\Spire.Doc.xml
+C:\Users\Mattia\Desktop\Offerte\Offerte\bin\Debug\Spire.Pdf.xml
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\Offerte.exe.config
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\Offerte.exe
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\Offerte.pdb
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\NPOI.dll
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\NPOI.OOXML.dll
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\Spire.Doc.dll
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\Spire.Pdf.dll
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\Syncfusion.Compression.Base.dll
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\Syncfusion.DocIO.Base.dll
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\Syncfusion.Licensing.dll
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\Syncfusion.OfficeChart.Base.dll
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\Microsoft.mshtml.dll
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\ICSharpCode.SharpZipLib.pdb
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\NPOI.pdb
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\NPOI.xml
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\NPOI.OOXML.pdb
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\NPOI.OOXML.xml
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\NPOI.OpenXml4Net.pdb
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\NPOI.OpenXml4Net.xml
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\NPOI.OpenXmlFormats.pdb
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\Spire.Doc.xml
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\Spire.Pdf.xml
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\Syncfusion.Compression.Base.xml
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\Syncfusion.DocIO.Base.xml
+C:\Users\Mattia\Desktop\Offerte1\Offerte\bin\Debug\Syncfusion.OfficeChart.Base.xml
+C:\Users\Mattia\Desktop\Offerte1\Offerte\obj\Debug\Offerte.csprojAssemblyReference.cache
+C:\Users\Mattia\Desktop\Offerte1\Offerte\obj\Debug\Offerte.Properties.Resources.resources
+C:\Users\Mattia\Desktop\Offerte1\Offerte\obj\Debug\Offerte.csproj.GenerateResource.cache
+C:\Users\Mattia\Desktop\Offerte1\Offerte\obj\Debug\Offerte.csproj.CoreCompileInputs.cache
+C:\Users\Mattia\Desktop\Offerte1\Offerte\obj\Debug\Offerte.csproj.CopyComplete
+C:\Users\Mattia\Desktop\Offerte1\Offerte\obj\Debug\Offerte.exe
+C:\Users\Mattia\Desktop\Offerte1\Offerte\obj\Debug\Offerte.pdb
+C:\Users\Mattia\Desktop\Offerte1\Offerte\obj\Debug\Offerte.Form1.resources
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\bin\Debug\Offerte.exe.config
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\bin\Debug\Offerte.exe
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\bin\Debug\Offerte.pdb
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\bin\Debug\Spire.Doc.dll
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\bin\Debug\Spire.Pdf.dll
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\bin\Debug\Microsoft.mshtml.dll
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\bin\Debug\Spire.Doc.xml
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\bin\Debug\Spire.Pdf.xml
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\obj\Debug\Offerte.csprojAssemblyReference.cache
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\obj\Debug\Offerte.Form1.resources
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\obj\Debug\Offerte.Properties.Resources.resources
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\obj\Debug\Offerte.csproj.GenerateResource.cache
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\obj\Debug\Offerte.csproj.CoreCompileInputs.cache
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\obj\Debug\Offerte.csproj.CopyComplete
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\obj\Debug\Offerte.exe
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\obj\Debug\Offerte.pdb
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\bin\Debug\Offerte.exe.config
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\bin\Debug\Offerte.exe
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\bin\Debug\Offerte.pdb
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\bin\Debug\Spire.Doc.dll
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\bin\Debug\Spire.Pdf.dll
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\bin\Debug\Microsoft.mshtml.dll
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\bin\Debug\Spire.Doc.xml
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\bin\Debug\Spire.Pdf.xml
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\obj\Debug\Offerte.csprojAssemblyReference.cache
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\obj\Debug\Offerte.Form1.resources
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\obj\Debug\Offerte.Properties.Resources.resources
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\obj\Debug\Offerte.csproj.GenerateResource.cache
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\obj\Debug\Offerte.csproj.CoreCompileInputs.cache
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\obj\Debug\Offerte.csproj.CopyComplete
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\obj\Debug\Offerte.exe
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\obj\Debug\Offerte.pdb
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\bin\Debug\Vlc.DotNet.Core.dll
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\bin\Debug\Vlc.DotNet.Core.Interops.dll
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\bin\Debug\Vlc.DotNet.Forms.dll
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\bin\Debug\Interop.WMPLib.dll
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\obj\Debug\Interop.WMPLib.dll
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\obj\Debug\Offerte.csproj.ResolveComReference.cache
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\obj\Debug\Offerte.INFO.resources
+\\QVSERVER\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Offerte.exe.config
+\\QVSERVER\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Offerte.exe
+\\QVSERVER\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Offerte.pdb
+\\QVSERVER\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Spire.Doc.dll
+\\QVSERVER\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Spire.Pdf.dll
+\\QVSERVER\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Vlc.DotNet.Core.dll
+\\QVSERVER\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Vlc.DotNet.Core.Interops.dll
+\\QVSERVER\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Vlc.DotNet.Forms.dll
+\\QVSERVER\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Microsoft.mshtml.dll
+\\QVSERVER\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Spire.Doc.xml
+\\QVSERVER\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Spire.Pdf.xml
+\\QVSERVER\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Interop.WMPLib.dll
+\\QVSERVER\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\AxInterop.WMPLib.dll
+\\QVSERVER\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.csprojAssemblyReference.cache
+\\QVSERVER\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Interop.WMPLib.dll
+\\QVSERVER\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\AxInterop.WMPLib.dll
+\\QVSERVER\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.csproj.ResolveComReference.cache
+\\QVSERVER\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.Form1.resources
+\\QVSERVER\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.INFO.resources
+\\QVSERVER\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.Properties.Resources.resources
+\\QVSERVER\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.csproj.GenerateResource.cache
+\\QVSERVER\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.csproj.CoreCompileInputs.cache
+\\QVSERVER\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.csproj.CopyComplete
+\\QVSERVER\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.exe
+\\QVSERVER\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.pdb
+\\QVSERVER\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.Caricamentocs.resources
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\obj\Debug\Offerte.Caricamentocs.resources
+C:\Users\Mattia\Desktop\PROGRAMMI C#\Programma Offerte e Report\Offerte\obj\Debug\Offerte.Finish.resources
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\bin\Debug\Vlc.DotNet.Core.dll
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\bin\Debug\Vlc.DotNet.Core.Interops.dll
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\bin\Debug\Vlc.DotNet.Forms.dll
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\bin\Debug\Interop.WMPLib.dll
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\obj\Debug\Interop.WMPLib.dll
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\obj\Debug\Offerte.csproj.ResolveComReference.cache
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\obj\Debug\Offerte.Caricamentocs.resources
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\obj\Debug\Offerte.Finish.resources
+C:\Users\Mattia\Desktop\Programma Offerte e Report\Offerte\obj\Debug\Offerte.INFO.resources
+\\192.168.9.176\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.csprojAssemblyReference.cache
+\\192.168.9.176\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Interop.WMPLib.dll
+\\192.168.9.176\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\AxInterop.WMPLib.dll
+\\192.168.9.176\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.csproj.ResolveComReference.cache
+\\192.168.9.176\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.exe
+\\192.168.9.176\Projects\qualivision\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.pdb
+C:\Users\Pc-Tobia\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Offerte.exe.config
+C:\Users\Pc-Tobia\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Offerte.exe
+C:\Users\Pc-Tobia\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Offerte.pdb
+C:\Users\Pc-Tobia\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Spire.Doc.dll
+C:\Users\Pc-Tobia\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Spire.Pdf.dll
+C:\Users\Pc-Tobia\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Vlc.DotNet.Core.dll
+C:\Users\Pc-Tobia\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Vlc.DotNet.Core.Interops.dll
+C:\Users\Pc-Tobia\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Vlc.DotNet.Forms.dll
+C:\Users\Pc-Tobia\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Microsoft.mshtml.dll
+C:\Users\Pc-Tobia\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Spire.Doc.xml
+C:\Users\Pc-Tobia\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Spire.Pdf.xml
+C:\Users\Pc-Tobia\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Interop.WMPLib.dll
+C:\Users\Pc-Tobia\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Pc-Tobia\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Interop.WMPLib.dll
+C:\Users\Pc-Tobia\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Pc-Tobia\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.csproj.ResolveComReference.cache
+C:\Users\Pc-Tobia\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.Caricamentocs.resources
+C:\Users\Pc-Tobia\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.Finish.resources
+C:\Users\Pc-Tobia\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.Form1.resources
+C:\Users\Pc-Tobia\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.INFO.resources
+C:\Users\Pc-Tobia\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.Properties.Resources.resources
+C:\Users\Pc-Tobia\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.csproj.GenerateResource.cache
+C:\Users\Pc-Tobia\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.csproj.CoreCompileInputs.cache
+C:\Users\Pc-Tobia\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.csproj.CopyComplete
+C:\Users\Pc-Tobia\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.exe
+C:\Users\Pc-Tobia\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.pdb
+C:\Users\Samuele\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Offerte.exe.config
+C:\Users\Samuele\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Offerte.exe
+C:\Users\Samuele\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Offerte.pdb
+C:\Users\Samuele\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Spire.Doc.dll
+C:\Users\Samuele\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Spire.Pdf.dll
+C:\Users\Samuele\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Vlc.DotNet.Core.dll
+C:\Users\Samuele\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Vlc.DotNet.Core.Interops.dll
+C:\Users\Samuele\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Vlc.DotNet.Forms.dll
+C:\Users\Samuele\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Microsoft.mshtml.dll
+C:\Users\Samuele\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Spire.Doc.xml
+C:\Users\Samuele\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Spire.Pdf.xml
+C:\Users\Samuele\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Interop.WMPLib.dll
+C:\Users\Samuele\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Samuele\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Interop.WMPLib.dll
+C:\Users\Samuele\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Samuele\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.csproj.ResolveComReference.cache
+C:\Users\Samuele\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.Caricamentocs.resources
+C:\Users\Samuele\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.Finish.resources
+C:\Users\Samuele\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.Form1.resources
+C:\Users\Samuele\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.INFO.resources
+C:\Users\Samuele\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.Properties.Resources.resources
+C:\Users\Samuele\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.csproj.GenerateResource.cache
+C:\Users\Samuele\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.csproj.CoreCompileInputs.cache
+C:\Users\Samuele\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.csproj.CopyComplete
+C:\Users\Samuele\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.exe
+C:\Users\Samuele\Desktop\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.pdb
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Offerte.exe.config
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Offerte.exe
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Offerte.pdb
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Spire.Doc.dll
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Spire.Pdf.dll
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Vlc.DotNet.Core.dll
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Vlc.DotNet.Core.Interops.dll
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Vlc.DotNet.Forms.dll
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Microsoft.mshtml.dll
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Spire.Doc.xml
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Spire.Pdf.xml
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\Interop.WMPLib.dll
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\bin\Debug\AxInterop.WMPLib.dll
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.csprojResolveAssemblyReference.cache
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Interop.WMPLib.dll
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\AxInterop.WMPLib.dll
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.csproj.ResolveComReference.cache
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.Caricamentocs.resources
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.Finish.resources
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.Form1.resources
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.INFO.resources
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.Properties.Resources.resources
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.csproj.GenerateResource.Cache
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.csproj.CoreCompileInputs.cache
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.exe
+C:\Progetti\GenerazioneAutomatica_OfferteReport\Offerte\obj\Debug\Offerte.pdb
