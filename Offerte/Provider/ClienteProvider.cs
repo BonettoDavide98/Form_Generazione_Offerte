@@ -22,7 +22,7 @@ namespace Offerte.Provider
                 {
                     cnn.Open();
                     //string sql = @"SELECT RagioneSociale, Indirizzo, Citta, Cap FROM Anagrafiche.Cliente WHERE CodiceERP IS NOT NULL ORDER BY RagioneSociale ASC";
-                    string sql = @" SELECT [Extent2].[Descr] AS [RagioneSociale], [Extent2].[Indir] AS [Indirizzo], [Extent2].[Citta] AS [Citta], [Extent2].[CAP] AS [CAP], [Extent5].Descrizione AS CondizionePagamento, NumeroCivico
+                    string sql = @" SELECT [Extent2].[Descr] AS [RagioneSociale], [Extent2].[Indir] AS [Indirizzo], [Extent2].[Citta] AS [Citta], [Extent2].[CAP] AS [CAP], [Extent5].Descrizione AS CondizionePagamento, NumeroCivico, Provincia
                                     FROM  [dbo].[CliFor] AS [Extent1]
                                     INNER JOIN [dbo].[Anagrafiche] AS [Extent2] ON [Extent1].[CODFISC] = [Extent2].[CODFISC]
 					                LEFT JOIN [Anagrafe].[CondizionePagamento] AS [Extent5] ON Extent1.[CODPAG] = [Extent5].[Codice]
@@ -37,6 +37,7 @@ namespace Offerte.Provider
                                 if (!dr.IsDBNull(dr.GetOrdinal("RagioneSociale"))) objTmp.RagioneSociale = dr.GetString(dr.GetOrdinal("RagioneSociale"));
                                 if (!dr.IsDBNull(dr.GetOrdinal("Indirizzo"))) objTmp.Indirizzo = dr.GetString(dr.GetOrdinal("Indirizzo"));
                                 if (!dr.IsDBNull(dr.GetOrdinal("Citta"))) objTmp.Citta = dr.GetString(dr.GetOrdinal("Citta"));
+                                if (!dr.IsDBNull(dr.GetOrdinal("Provincia"))) objTmp.Provincia = dr.GetString(dr.GetOrdinal("Provincia"));
                                 if (!dr.IsDBNull(dr.GetOrdinal("Cap"))) objTmp.Cap = dr.GetString(dr.GetOrdinal("Cap"));
                                 if (!dr.IsDBNull(dr.GetOrdinal("NumeroCivico"))) objTmp.NumeroCivico = dr.GetString(dr.GetOrdinal("NumeroCivico"));
 

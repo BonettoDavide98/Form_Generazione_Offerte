@@ -51,7 +51,7 @@ namespace Offerte
 
                     Cap.Add(item.Cap.Trim());
 
-                    Citta.Add(item.Citta.Trim());
+                    Citta.Add(item.Citta.Trim() + " (" + item.Provincia.Trim() + ")");
 
                     CondizioniPagamento.Add(item.CondizionePagamento.Trim());
                 }
@@ -80,7 +80,7 @@ namespace Offerte
             documento.Replace("Indirizzo", textBoxIndirizzo.Text, false, true);
             documento.Replace("12050,", textBoxCAP.Text, false, true);
             documento.Replace("Nome Cognome", textBoxAttenzioneDi.Text, false, true);
-            documento.Replace("Città", "", false, true);
+            documento.Replace("Città", textBoxCitta.Text, false, true);
             documento.Replace("27 luglio 2022", datastring, false, true);
             documento.Replace("000/", nofferta.ToString() + "/", false, true);
             documento.Replace("/2022", "/" + DateTime.Now.Year, false, true);
@@ -97,7 +97,7 @@ namespace Offerte
             documento.Replace("Indirizzo", textBoxIndirizzo.Text, false, true);
             documento.Replace("12050,", textBoxCAP.Text, false, true);
             documento.Replace("Nome Cognome", textBoxAttenzioneDi.Text, false, true);
-            documento.Replace("Città", "", false, true);
+            documento.Replace("Città", textBoxCitta.Text, false, true);
             documento.Replace("27 luglio 2022", datastring, false, true);
             documento.Replace("000/", nofferta.ToString() + "/", false, true);
             documento.Replace("/2022", "/" + DateTime.Now.Year, false, true);
