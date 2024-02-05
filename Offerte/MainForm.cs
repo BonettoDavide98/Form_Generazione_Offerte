@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
-using System.Drawing;
 using System.Threading;
 using System.Text.RegularExpressions;
 using System.Diagnostics;
 
 namespace Offerte
 {
+    //QUesto programma crea una directory conenente dei file preimpostati per la redazione di offerte e report
+    //Se si riscontrano degli errori verificare che le impostazioni (Solution Explorer > Offerte > Proprietà > Settings) siano corrette per il computer in uso
+    //Utilizzo: selezionare un azienda, compilare i campi desiderati e premere crea
+
     public partial class MainForm : Form
     {
         private static Caricamentocs carica = null;
@@ -30,36 +33,43 @@ namespace Offerte
         //Carica i dati di ogni cliente nelle rispettive liste
         private void MainForm_Load(object sender, EventArgs e)
         {
-            textBoxAnno.Text = DateTime.Now.Year.ToString();
-
-            var listaClienti = Provider.ClienteProvider.NomiAziende();
-
-            foreach (var item in listaClienti)
+            try
             {
-                //Rimuove SRL
-                item.RagioneSociale = Regex.Replace(item.RagioneSociale, @" s\.?r\.?l\.?", "", RegexOptions.IgnoreCase);
-                //Rimuove SPA
-                item.RagioneSociale = Regex.Replace(item.RagioneSociale, @" s\.?p\.?a\.?", "", RegexOptions.IgnoreCase);
-                nAziende.Add(item.RagioneSociale.Trim());
+                textBoxAnno.Text = DateTime.Now.Year.ToString();
 
-                Indirizzi.Add(item.Indirizzo.Trim());
+                var listaClienti = Provider.ClienteProvider.NomiAziende();
 
-                Cap.Add(item.Cap.Trim());
+                foreach (var item in listaClienti)
+                {
+                    //Rimuove SRL con o senza punti
+                    item.RagioneSociale = Regex.Replace(item.RagioneSociale, @" s\.?r\.?l\.?", "", RegexOptions.IgnoreCase);
+                    //Rimuove SPA con o senza punti
+                    item.RagioneSociale = Regex.Replace(item.RagioneSociale, @" s\.?p\.?a\.?", "", RegexOptions.IgnoreCase);
+                    nAziende.Add(item.RagioneSociale.Trim());
 
-                Citta.Add(item.Citta.Trim());
+                    Indirizzi.Add(item.Indirizzo.Trim() + (item.NumeroCivico == null ? "" : " " + item.NumeroCivico.Trim()));
 
-                CondizioniPagamento.Add(item.CondizionePagamento.Trim());
-            }
+                    Cap.Add(item.Cap.Trim());
 
-            comboBoxNomeAzienda.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
-            comboBoxNomeAzienda.AutoCompleteSource = AutoCompleteSource.CustomSource;
-            AutoCompleteStringCollection data = new AutoCompleteStringCollection();
-            foreach (var item in nAziende)
+                    Citta.Add(item.Citta.Trim());
+
+                    CondizioniPagamento.Add(item.CondizionePagamento.Trim());
+                }
+
+                //Autocomplete per i nomi delle aziende
+                comboBoxNomeAzienda.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+                comboBoxNomeAzienda.AutoCompleteSource = AutoCompleteSource.CustomSource;
+                AutoCompleteStringCollection data = new AutoCompleteStringCollection();
+                foreach (var item in nAziende)
+                {
+                    data.Add(item.Trim());
+                }
+                comboBoxNomeAzienda.AutoCompleteCustomSource = data;
+                comboBoxNomeAzienda.DataSource = data;
+            } catch(Exception ex)
             {
-                data.Add(item.Trim());
+                MessageBox.Show("Errore nel caricamento dei dati\n" + ex.StackTrace);
             }
-            comboBoxNomeAzienda.AutoCompleteCustomSource = data;
-            comboBoxNomeAzienda.DataSource = data;
         }
 
         //Modifica il file .doc generico di offerta inserendo i dati forniti

@@ -12,6 +12,7 @@ namespace Offerte.Datatype
         public string CodiceEsterno { get; set; }
         public string RagioneSociale { get; set; }
         public string Indirizzo { get; set; }
+        public string NumeroCivico { get; set; }
         public string CodiceERP { get; set; }
         public string Piva { get; set; }
         public string IndirizzoBreve { get; set; }

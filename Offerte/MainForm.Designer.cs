@@ -71,7 +71,7 @@
             this.groupBoxDatiAzienda.ForeColor = System.Drawing.SystemColors.ControlText;
             this.groupBoxDatiAzienda.Location = new System.Drawing.Point(13, 13);
             this.groupBoxDatiAzienda.Name = "groupBoxDatiAzienda";
-            this.groupBoxDatiAzienda.Size = new System.Drawing.Size(717, 86);
+            this.groupBoxDatiAzienda.Size = new System.Drawing.Size(967, 86);
             this.groupBoxDatiAzienda.TabIndex = 0;
             this.groupBoxDatiAzienda.TabStop = false;
             this.groupBoxDatiAzienda.Text = "DATI AZIENDA";
@@ -89,16 +89,16 @@
             // textBoxCitta
             // 
             this.textBoxCitta.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxCitta.Location = new System.Drawing.Point(544, 45);
+            this.textBoxCitta.Location = new System.Drawing.Point(762, 45);
             this.textBoxCitta.Name = "textBoxCitta";
-            this.textBoxCitta.Size = new System.Drawing.Size(167, 29);
+            this.textBoxCitta.Size = new System.Drawing.Size(199, 29);
             this.textBoxCitta.TabIndex = 7;
             // 
             // labelCitta
             // 
             this.labelCitta.AutoSize = true;
             this.labelCitta.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCitta.Location = new System.Drawing.Point(540, 18);
+            this.labelCitta.Location = new System.Drawing.Point(758, 18);
             this.labelCitta.Name = "labelCitta";
             this.labelCitta.Size = new System.Drawing.Size(45, 24);
             this.labelCitta.TabIndex = 6;
@@ -109,7 +109,7 @@
             this.textBoxIndirizzo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxIndirizzo.Location = new System.Drawing.Point(316, 45);
             this.textBoxIndirizzo.Name = "textBoxIndirizzo";
-            this.textBoxIndirizzo.Size = new System.Drawing.Size(222, 29);
+            this.textBoxIndirizzo.Size = new System.Drawing.Size(440, 29);
             this.textBoxIndirizzo.TabIndex = 5;
             // 
             // labelIndirizzo
@@ -162,7 +162,7 @@
             this.groupBoxDettagli.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxDettagli.Location = new System.Drawing.Point(13, 105);
             this.groupBoxDettagli.Name = "groupBoxDettagli";
-            this.groupBoxDettagli.Size = new System.Drawing.Size(717, 85);
+            this.groupBoxDettagli.Size = new System.Drawing.Size(967, 85);
             this.groupBoxDettagli.TabIndex = 1;
             this.groupBoxDettagli.TabStop = false;
             this.groupBoxDettagli.Text = "DETTAGLI";
@@ -170,16 +170,16 @@
             // textBoxAttenzioneDi
             // 
             this.textBoxAttenzioneDi.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxAttenzioneDi.Location = new System.Drawing.Point(497, 45);
+            this.textBoxAttenzioneDi.Location = new System.Drawing.Point(686, 46);
             this.textBoxAttenzioneDi.Name = "textBoxAttenzioneDi";
-            this.textBoxAttenzioneDi.Size = new System.Drawing.Size(214, 29);
+            this.textBoxAttenzioneDi.Size = new System.Drawing.Size(275, 29);
             this.textBoxAttenzioneDi.TabIndex = 5;
             // 
             // labelAttenzioneDi
             // 
             this.labelAttenzioneDi.AutoSize = true;
             this.labelAttenzioneDi.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelAttenzioneDi.Location = new System.Drawing.Point(497, 18);
+            this.labelAttenzioneDi.Location = new System.Drawing.Point(682, 18);
             this.labelAttenzioneDi.Name = "labelAttenzioneDi";
             this.labelAttenzioneDi.Size = new System.Drawing.Size(151, 24);
             this.labelAttenzioneDi.TabIndex = 4;
@@ -190,7 +190,7 @@
             this.textBoxCondizionePagamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxCondizionePagamento.Location = new System.Drawing.Point(116, 46);
             this.textBoxCondizionePagamento.Name = "textBoxCondizionePagamento";
-            this.textBoxCondizionePagamento.Size = new System.Drawing.Size(375, 29);
+            this.textBoxCondizionePagamento.Size = new System.Drawing.Size(564, 29);
             this.textBoxCondizionePagamento.TabIndex = 3;
             // 
             // labelCondizionePagamento
@@ -230,7 +230,7 @@
             this.groupBoxContenuti.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxContenuti.Location = new System.Drawing.Point(13, 197);
             this.groupBoxContenuti.Name = "groupBoxContenuti";
-            this.groupBoxContenuti.Size = new System.Drawing.Size(717, 146);
+            this.groupBoxContenuti.Size = new System.Drawing.Size(967, 146);
             this.groupBoxContenuti.TabIndex = 2;
             this.groupBoxContenuti.TabStop = false;
             this.groupBoxContenuti.Text = "CONTENUTI";
@@ -240,14 +240,14 @@
             this.textBoxDescrizioneCartella.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxDescrizioneCartella.Location = new System.Drawing.Point(6, 105);
             this.textBoxDescrizioneCartella.Name = "textBoxDescrizioneCartella";
-            this.textBoxDescrizioneCartella.Size = new System.Drawing.Size(705, 29);
+            this.textBoxDescrizioneCartella.Size = new System.Drawing.Size(955, 29);
             this.textBoxDescrizioneCartella.TabIndex = 3;
             // 
             // labelDescrizioneCartella
             // 
             this.labelDescrizioneCartella.AutoSize = true;
             this.labelDescrizioneCartella.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDescrizioneCartella.Location = new System.Drawing.Point(245, 77);
+            this.labelDescrizioneCartella.Location = new System.Drawing.Point(8, 77);
             this.labelDescrizioneCartella.Name = "labelDescrizioneCartella";
             this.labelDescrizioneCartella.Size = new System.Drawing.Size(235, 24);
             this.labelDescrizioneCartella.TabIndex = 2;
@@ -256,16 +256,16 @@
             // textBoxNomeTecnico
             // 
             this.textBoxNomeTecnico.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNomeTecnico.Location = new System.Drawing.Point(139, 45);
+            this.textBoxNomeTecnico.Location = new System.Drawing.Point(6, 45);
             this.textBoxNomeTecnico.Name = "textBoxNomeTecnico";
-            this.textBoxNomeTecnico.Size = new System.Drawing.Size(426, 29);
+            this.textBoxNomeTecnico.Size = new System.Drawing.Size(579, 29);
             this.textBoxNomeTecnico.TabIndex = 1;
             // 
             // labelNomeTecnico
             // 
             this.labelNomeTecnico.AutoSize = true;
             this.labelNomeTecnico.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNomeTecnico.Location = new System.Drawing.Point(245, 18);
+            this.labelNomeTecnico.Location = new System.Drawing.Point(6, 18);
             this.labelNomeTecnico.Name = "labelNomeTecnico";
             this.labelNomeTecnico.Size = new System.Drawing.Size(230, 24);
             this.labelNomeTecnico.TabIndex = 0;
@@ -274,7 +274,7 @@
             // buttonCrea
             // 
             this.buttonCrea.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCrea.Location = new System.Drawing.Point(494, 349);
+            this.buttonCrea.Location = new System.Drawing.Point(744, 349);
             this.buttonCrea.Name = "buttonCrea";
             this.buttonCrea.Size = new System.Drawing.Size(104, 48);
             this.buttonCrea.TabIndex = 3;
@@ -285,7 +285,7 @@
             // buttonAnnulla
             // 
             this.buttonAnnulla.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAnnulla.Location = new System.Drawing.Point(604, 349);
+            this.buttonAnnulla.Location = new System.Drawing.Point(854, 349);
             this.buttonAnnulla.Name = "buttonAnnulla";
             this.buttonAnnulla.Size = new System.Drawing.Size(126, 48);
             this.buttonAnnulla.TabIndex = 4;
@@ -308,7 +308,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(740, 403);
+            this.ClientSize = new System.Drawing.Size(992, 403);
             this.Controls.Add(this.buttonHelp);
             this.Controls.Add(this.buttonAnnulla);
             this.Controls.Add(this.buttonCrea);
